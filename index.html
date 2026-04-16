@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dr. Cezar Galhardo - Cirurgião Oncológico em Campo Grande</title>
-  <meta name="description" content="Dr. Cezar Augusto Vendas Galhardo, médico cirurgião oncológico em Campo Grande/MS. Consulta em cirurgia oncológica, cirurgia torácica e avaliação de casos complexos. Agende pelo WhatsApp." />
+  <meta name="description" content="Dr. Cezar Augusto Vendas Galhardo, médico cirurgião oncológico em Campo Grande/MS. Avaliação cirúrgica, segunda opinião e cirurgia torácica oncológica. Fale com a equipe pelo WhatsApp." />
   <link href="https://api.fontshare.com/v2/css?f[]=zodiak@400,500,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -55,7 +55,7 @@
     .top-actions{display:flex;align-items:center;gap:.75rem}
     .theme-toggle{width:42px;height:42px;border-radius:999px;display:grid;place-items:center;background:var(--surface);border:1px solid var(--border);color:var(--text-muted)}
 
-    .btn{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;padding:.95rem 1.3rem;border-radius:var(--radius-full);font-weight:700;font-size:var(--text-sm);border:1px solid transparent;white-space:nowrap}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;padding:.98rem 1.35rem;border-radius:var(--radius-full);font-weight:700;font-size:var(--text-sm);border:1px solid transparent;white-space:nowrap}
     .btn-primary{background:var(--primary);color:#fff;box-shadow:var(--shadow-sm)}
     .btn-primary:hover{background:var(--primary-hover);transform:translateY(-1px)}
     .btn-whatsapp{background:var(--whatsapp);color:#fff;box-shadow:0 12px 28px rgba(37,211,102,.24)}
@@ -65,13 +65,13 @@
 
     .hero{position:relative;overflow:hidden;padding:clamp(4rem,9vw,7rem) 0 clamp(3.5rem,8vw,5.5rem)}
     .hero::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 15% 18%,color-mix(in srgb,var(--primary) 12%,transparent),transparent 28%),radial-gradient(circle at 84% 20%,color-mix(in srgb,var(--primary) 9%,transparent),transparent 26%)}
-    .hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+    .hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(2rem,5vw,4rem);align-items:center}
     .eyebrow{display:inline-flex;align-items:center;gap:.5rem;padding:.52rem .9rem;border:1px solid var(--border-strong);border-radius:999px;background:color-mix(in srgb,var(--surface) 82%,transparent);font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted)}
     .eyebrow span{width:8px;height:8px;border-radius:50%;background:var(--primary)}
     .hero h1{font-family:var(--font-display);font-size:var(--text-3xl);line-height:1.02;max-width:12ch;margin:1rem 0 1.1rem}
     .hero h1 .accent{color:var(--primary)}
-    .hero .lead{font-size:var(--text-lg);color:var(--text-muted);max-width:52ch;margin-bottom:1.4rem}
-    .hero-list{list-style:none;display:grid;gap:.8rem;margin:1.4rem 0 2rem}
+    .hero .lead{font-size:var(--text-lg);color:var(--text-muted);max-width:54ch;margin-bottom:1.4rem}
+    .hero-list{list-style:none;display:grid;gap:.82rem;margin:1.4rem 0 2rem}
     .hero-list li{display:flex;gap:.7rem;align-items:flex-start;color:var(--text-muted);font-size:var(--text-sm)}
     .hero-list li::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--primary);margin-top:.48rem;flex-shrink:0}
     .hero-ctas{display:flex;flex-wrap:wrap;gap:.85rem}
@@ -79,9 +79,9 @@
     .hero-side{background:linear-gradient(180deg,color-mix(in srgb,var(--surface) 92%,transparent),var(--surface-2));border:1px solid var(--border);border-radius:30px;padding:1.3rem;box-shadow:var(--shadow-md)}
     .hero-box{padding:1.2rem;border-radius:22px;background:color-mix(in srgb,var(--surface) 90%,transparent);border:1px solid var(--border)}
     .mini-kicker{font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.1em;color:var(--primary);font-weight:700;margin-bottom:.9rem}
-    .hero-highlights{display:grid;grid-template-columns:repeat(2,1fr);gap:.85rem}
+    .hero-highlights{display:grid;grid-template-columns:1fr 1fr;gap:.85rem}
     .hero-highlight{padding:1rem;border:1px solid var(--border);border-radius:18px;background:var(--surface)}
-    .hero-highlight strong{display:block;font-family:var(--font-display);font-size:1.05rem;margin-bottom:.25rem}
+    .hero-highlight strong{display:block;font-family:var(--font-display);font-size:1rem;line-height:1.15;margin-bottom:.3rem}
     .hero-highlight span{display:block;color:var(--text-muted);font-size:var(--text-xs)}
 
     .trust-strip{border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:color-mix(in srgb,var(--surface) 74%,transparent)}
@@ -113,6 +113,7 @@
 
     .doctor-grid{display:grid;grid-template-columns:360px 1fr;gap:clamp(1.5rem,5vw,3.2rem);align-items:start}
     .doctor-photo{min-height:460px;border-radius:30px;border:1px solid var(--border);overflow:hidden;background:linear-gradient(180deg,var(--surface-2),var(--surface));display:grid;place-items:center;box-shadow:var(--shadow-md)}
+    .doctor-photo img{width:100%;height:100%;object-fit:cover}
     .doctor-photo-inner{text-align:center;color:var(--text-faint);padding:2rem}
     .doctor-photo-inner svg{margin:0 auto .8rem;opacity:.42}
     .doctor-copy p{color:var(--text-muted);margin-bottom:1rem;max-width:62ch}
@@ -122,9 +123,9 @@
     .tag-row{display:flex;flex-wrap:wrap;gap:.65rem}
     .tag{padding:.55rem .8rem;border-radius:999px;border:1px solid var(--border);background:color-mix(in srgb,var(--surface) 90%,transparent);color:var(--text-muted);font-size:var(--text-xs)}
 
-    .simple-proof{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
-    .proof-card{background:var(--surface);border:1px solid var(--border);border-radius:24px;padding:1.3rem}
-    .proof-card h3{font-family:var(--font-display);font-size:1.25rem;line-height:1.1;margin-bottom:.55rem}
+    .proof-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+    .proof-card{background:var(--surface);border:1px solid var(--border);border-radius:24px;padding:1.25rem}
+    .proof-card h3{font-family:var(--font-display);font-size:1.18rem;line-height:1.1;margin-bottom:.5rem}
     .proof-card p{color:var(--text-muted);font-size:var(--text-sm)}
 
     .cta-card{border-radius:32px;padding:clamp(1.5rem,4vw,2.4rem);border:1px solid color-mix(in srgb,var(--primary) 18%,var(--border));background:linear-gradient(180deg,color-mix(in srgb,var(--primary) 6%,var(--surface)),var(--surface));box-shadow:var(--shadow-md);text-align:center}
@@ -145,7 +146,7 @@
     .wa-float:hover{filter:brightness(.97);transform:translateY(-1px)}
 
     @media(max-width:980px){
-      .hero-grid,.services-grid,.conditions-grid,.doctor-grid,.simple-proof,.trust-grid{grid-template-columns:1fr}
+      .hero-grid,.services-grid,.conditions-grid,.doctor-grid,.proof-grid,.trust-grid{grid-template-columns:1fr}
       .hero-highlights{grid-template-columns:1fr 1fr}
     }
     @media(max-width:720px){
@@ -179,7 +180,7 @@
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
         </button>
         <a class="btn btn-secondary" href="tel:+556741413499">Ligar: (67) 4141-3499</a>
-        <a class="btn btn-primary" href="https://wa.me/5567999073499?text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta+com+o+Dr.+Cezar+Galhardo" target="_blank" rel="noopener noreferrer">Agendar</a>
+        <a class="btn btn-primary" href="https://wa.me/5567999073499?text=Ol%C3%A1%2C+gostaria+de+falar+com+a+equipe+do+Dr.+Cezar+Galhardo" target="_blank" rel="noopener noreferrer">Falar com a equipe</a>
       </div>
     </div>
   </header>
@@ -190,32 +191,32 @@
         <div>
           <div class="eyebrow"><span></span> Campo Grande/MS · atendimento particular</div>
           <h1>Cirurgião <span class="accent">oncológico</span> em Campo Grande/MS</h1>
-          <p class="lead">Consulta especializada para avaliação cirúrgica, segunda opinião e planejamento do tratamento em casos de câncer abdominal, torácico e peritoneal.</p>
+          <p class="lead">Tratamento cirúrgico especializado em câncer abdominal, torácico e peritoneal, com foco em segurança técnica, precisão e acolhimento ao paciente e à família.</p>
 
           <ul class="hero-list">
-            <li>Atendimento para pacientes com diagnóstico recente ou indicação de cirurgia oncológica.</li>
-            <li>Atuação em cirurgia oncológica, cirurgia torácica e casos complexos com planejamento individualizado.</li>
-            <li>Agendamento rápido por WhatsApp para envio de exames e orientações iniciais.</li>
+            <li>Avaliação do caso, revisão de exames e definição dos próximos passos cirúrgicos.</li>
+            <li>Atuação em cirurgia oncológica, cirurgia torácica e casos de maior complexidade.</li>
+            <li>Contato direto com a equipe para tirar dúvidas e agendar consulta pelo WhatsApp.</li>
           </ul>
 
           <div class="hero-ctas">
-            <a class="btn btn-whatsapp" href="https://wa.me/5567999073499?text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta+com+o+Dr.+Cezar+Galhardo" target="_blank" rel="noopener noreferrer">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884"></path></svg>
-              Agendar pelo WhatsApp
+            <a class="btn btn-whatsapp" href="https://wa.me/5567999073499?text=Ol%C3%A1%2C+gostaria+de+falar+com+a+equipe+do+Dr.+Cezar+Galhardo" target="_blank" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 1 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884"></path></svg>
+              Falar com a equipe no WhatsApp
             </a>
-            <a class="btn btn-secondary" href="tel:+556741413499">Ligar agora</a>
+            <a class="btn btn-secondary" href="tel:+556741413499">Ligar para o consultório</a>
           </div>
           <div class="hero-foot">MÉDICO Dr. Cezar Augusto Vendas Galhardo · CRM-MS 4973 · Cirurgia Oncológica RQE 3911 · Cirurgia Torácica RQE 3912</div>
         </div>
 
         <aside class="hero-side" aria-label="Destaques do médico">
           <div class="hero-box">
-            <div class="mini-kicker">Destaques</div>
+            <div class="mini-kicker">Destaques do atendimento</div>
             <div class="hero-highlights">
-              <div class="hero-highlight"><strong>HCAA</strong><span>Chefe da oncologia abdominal e torácica</span></div>
-              <div class="hero-highlight"><strong>CAPE</strong><span>Centro Avançado do Peritônio</span></div>
-              <div class="hero-highlight"><strong>NIO</strong><span>Atendimento em Campo Grande/MS</span></div>
-              <div class="hero-highlight"><strong>HIPEC</strong><span>Atuação em casos selecionados de alta complexidade</span></div>
+              <div class="hero-highlight"><strong>Hospital do Câncer de Campo Grande</strong><span>Chefe da oncologia abdominal e torácica do HCAA.</span></div>
+              <div class="hero-highlight"><strong>Atendimento em Campo Grande/MS</strong><span>Consulta particular com contato direto pelo consultório.</span></div>
+              <div class="hero-highlight"><strong>Cirurgia oncológica e torácica</strong><span>Atuação em tumores abdominais, torácicos e casos complexos.</span></div>
+              <div class="hero-highlight"><strong>CAPE</strong><span>Atuação ligada ao Centro Avançado do Peritônio em casos selecionados.</span></div>
             </div>
           </div>
         </aside>
@@ -235,8 +236,8 @@
       <div class="container">
         <div class="section-head">
           <div class="section-kicker">Atendimentos</div>
-          <h2>Áreas de atuação do Dr. Cezar</h2>
-          <p class="section-text">Página focada em apresentar, de forma clara, os principais atendimentos e procedimentos relacionados à cirurgia oncológica e torácica.</p>
+          <h2>Áreas em que o paciente pode buscar avaliação</h2>
+          <p class="section-text">A proposta desta página é facilitar o primeiro contato de quem precisa entender melhor a possibilidade de cirurgia, revisar exames ou buscar uma segunda opinião especializada.</p>
         </div>
 
         <div class="services-grid">
@@ -245,11 +246,11 @@
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 12h10M12 7v10"></path><rect x="4" y="4" width="16" height="16" rx="4"></rect></svg>
             </div>
             <h3>Consulta em cirurgia oncológica</h3>
-            <p>Avaliação diagnóstica, definição de conduta, planejamento do tratamento e segunda opinião para pacientes com suspeita ou diagnóstico confirmado de câncer.</p>
+            <p>Indicado para pacientes que precisam revisar exames, entender a possibilidade de cirurgia e definir com mais clareza os próximos passos do tratamento.</p>
             <ul class="service-list">
-              <li>Casos abdominais, torácicos e peritoneais.</li>
-              <li>Indicação cirúrgica individualizada conforme exames e histórico clínico.</li>
-              <li>Contato direto com o consultório para agendamento e orientações iniciais.</li>
+              <li>Avaliação de casos abdominais, torácicos e peritoneais.</li>
+              <li>Segunda opinião para quem deseja rever a conduta proposta.</li>
+              <li>Contato inicial simples pelo WhatsApp com a equipe do consultório.</li>
             </ul>
           </article>
 
@@ -258,7 +259,7 @@
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 12h16"></path><path d="M12 4v16"></path><circle cx="12" cy="12" r="9"></circle></svg>
             </div>
             <h3>Câncer de cólon e reto</h3>
-            <p>Tratamento cirúrgico oncológico com planejamento técnico conforme o estágio da doença e a condição clínica do paciente.</p>
+            <p>Avaliação para cirurgia de câncer de cólon e reto, com revisão de exames e definição da melhor abordagem para o caso.</p>
           </article>
 
           <article class="service-card">
@@ -266,7 +267,7 @@
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 19V5l12 7-12 7Z"></path></svg>
             </div>
             <h3>Câncer de pulmão</h3>
-            <p>Cirurgia torácica oncológica para nódulos pulmonares, tumores torácicos e metástases pulmonares, conforme indicação clínica.</p>
+            <p>Avaliação para cirurgia torácica oncológica em casos de nódulos pulmonares, tumores torácicos e metástases pulmonares.</p>
           </article>
 
           <article class="service-card">
@@ -274,7 +275,7 @@
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 12h14"></path><path d="M12 5v14"></path><path d="M5 5l14 14"></path></svg>
             </div>
             <h3>Câncer de estômago</h3>
-            <p>Planejamento cirúrgico para tumores gástricos, com definição da melhor estratégia de tratamento conforme o caso.</p>
+            <p>Consulta para revisão do caso, análise dos exames e definição da estratégia cirúrgica mais adequada para o paciente.</p>
           </article>
 
           <article class="service-card">
@@ -282,15 +283,15 @@
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3c5 0 9 4 9 9s-4 9-9 9-9-4-9-9 4-9 9-9Z"></path><path d="M12 7v5l3 2"></path></svg>
             </div>
             <h3>Segunda opinião cirúrgica</h3>
-            <p>Revisão de exames, diagnóstico e planejamento para pacientes que desejam entender melhor as opções cirúrgicas do caso.</p>
+            <p>Para pacientes e famílias que desejam revisar o diagnóstico, entender as opções cirúrgicas e decidir com mais segurança.</p>
           </article>
 
           <article class="service-card">
             <div class="icon-box" aria-hidden="true">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="8"></circle><circle cx="12" cy="12" r="3"></circle></svg>
             </div>
-            <h3>Casos complexos</h3>
-            <p>Avaliação de situações de maior complexidade, incluindo doença peritoneal e indicação de procedimentos específicos em casos selecionados.</p>
+            <h3>Casos de maior complexidade</h3>
+            <p>Avaliação de situações mais complexas, incluindo doença peritoneal e indicação de procedimentos específicos em casos selecionados.</p>
           </article>
         </div>
       </div>
@@ -300,20 +301,20 @@
       <div class="container">
         <div class="section-head">
           <div class="section-kicker">Quando procurar avaliação</div>
-          <h2>Situações em que a consulta pode ser indicada</h2>
-          <p class="section-text">A proposta aqui é facilitar a identificação do paciente com o atendimento, de forma simples e objetiva.</p>
+          <h2>Em quais situações essa consulta costuma ser buscada</h2>
+          <p class="section-text">Esses são alguns cenários em que pacientes e familiares costumam entrar em contato com o consultório.</p>
         </div>
         <div class="conditions-grid">
           <article class="condition-card">
-            <strong>Diagnóstico recente</strong>
-            <p>Quando há suspeita ou confirmação de câncer e é necessário definir a possibilidade de cirurgia e os próximos passos do tratamento.</p>
+            <strong>Após um diagnóstico recente</strong>
+            <p>Quando é preciso entender se existe indicação cirúrgica e quais são os próximos passos do tratamento.</p>
           </article>
           <article class="condition-card">
-            <strong>Dúvida sobre a conduta</strong>
-            <p>Quando o paciente ou a família deseja uma segunda opinião antes de decidir o tratamento cirúrgico.</p>
+            <strong>Quando há dúvida sobre a conduta</strong>
+            <p>Quando o paciente deseja revisar exames, confirmar o plano proposto ou buscar uma segunda opinião especializada.</p>
           </article>
           <article class="condition-card">
-            <strong>Casos abdominais ou torácicos</strong>
+            <strong>Em casos abdominais ou torácicos</strong>
             <p>Quando o quadro envolve tumores do aparelho digestivo, pulmão, tórax ou situações de maior complexidade.</p>
           </article>
         </div>
@@ -325,18 +326,18 @@
         <div class="doctor-photo" aria-label="Espaço para foto profissional do médico">
           <div class="doctor-photo-inner">
             <svg width="68" height="68" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-            <div>Inserir foto profissional do Dr. Cezar</div>
+            <div>Adicionar foto profissional do Dr. Cezar nesta área antes da publicação</div>
           </div>
         </div>
         <div class="doctor-copy">
           <div class="section-kicker">Sobre o médico</div>
           <h2>Dr. Cezar Augusto Vendas Galhardo</h2>
           <p>MÉDICO cirurgião oncológico e torácico, com atuação em Campo Grande/MS e foco em avaliação cirúrgica, tratamento oncológico e condução de casos de maior complexidade.</p>
-          <p>O objetivo desta página é facilitar o primeiro contato do paciente com o consultório, reunindo informações principais, credenciais médicas e canais de agendamento de forma clara.</p>
+          <p>Atende pacientes que buscam definição do tratamento cirúrgico, revisão de exames, segunda opinião e acompanhamento em situações que exigem análise especializada.</p>
 
           <ul class="doctor-list">
             <li>CRM-MS 4973 · Cirurgia Oncológica RQE 3911 · Cirurgia Torácica RQE 3912.</li>
-            <li>Chefe da oncologia abdominal e torácica do HCAA.</li>
+            <li>Chefe da oncologia abdominal e torácica do Hospital do Câncer de Campo Grande (HCAA).</li>
             <li>Atuação ligada ao CAPE – Centro Avançado do Peritônio Ltda. · CNPJ 32.900.188/0001-10.</li>
             <li>Atendimento em Campo Grande/MS, com contato por WhatsApp e telefone do consultório.</li>
             <li>Experiência em cirurgia oncológica abdominal, torácica e avaliação de casos selecionados de alta complexidade.</li>
@@ -358,14 +359,18 @@
 
     <section class="section">
       <div class="container">
-        <div class="simple-proof">
+        <div class="proof-grid">
           <article class="proof-card">
-            <h3>Contato rápido</h3>
-            <p>O paciente pode chamar no WhatsApp para agendamento, envio de exames e orientações iniciais do consultório.</p>
+            <h3>Primeiro contato simplificado</h3>
+            <p>O paciente pode falar com a equipe pelo WhatsApp, enviar os exames e receber orientações administrativas para marcar a consulta.</p>
           </article>
           <article class="proof-card">
-            <h3>Informação clara</h3>
-            <p>A página foi simplificada para falar com o paciente de forma direta, sem termos de bastidor e sem excesso de explicações técnicas.</p>
+            <h3>Informação direta</h3>
+            <p>A página foi organizada para responder de forma clara se esse atendimento faz sentido para o caso e como iniciar o contato.</p>
+          </article>
+          <article class="proof-card">
+            <h3>Foco no atendimento</h3>
+            <p>O conteúdo prioriza clareza, confiança e identificação profissional, sem promessas de resultado e sem excesso de termos técnicos.</p>
           </article>
         </div>
       </div>
@@ -375,10 +380,10 @@
       <div class="container-narrow">
         <div class="cta-card">
           <div class="section-kicker">Agendamento</div>
-          <h2>Solicite sua avaliação com o Dr. Cezar</h2>
-          <p>Fale com o consultório pelo WhatsApp para agendar consulta, enviar exames e receber orientações iniciais sobre atendimento e disponibilidade.</p>
+          <h2>Fale com a equipe e agende sua consulta</h2>
+          <p>Entre em contato pelo WhatsApp para tirar dúvidas iniciais, enviar exames e combinar o agendamento com o consultório.</p>
           <div class="cta-actions">
-            <a class="btn btn-whatsapp" href="https://wa.me/5567999073499?text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta+com+o+Dr.+Cezar+Galhardo" target="_blank" rel="noopener noreferrer">Agendar pelo WhatsApp</a>
+            <a class="btn btn-whatsapp" href="https://wa.me/5567999073499?text=Ol%C3%A1%2C+gostaria+de+falar+com+a+equipe+do+Dr.+Cezar+Galhardo" target="_blank" rel="noopener noreferrer">Falar com a equipe no WhatsApp</a>
             <a class="btn btn-secondary" href="tel:+556741413499">(67) 4141-3499</a>
           </div>
           <div class="contact-meta">
@@ -408,8 +413,8 @@
     </div>
   </footer>
 
-  <a class="wa-float" href="https://wa.me/5567999073499?text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta+com+o+Dr.+Cezar+Galhardo" target="_blank" rel="noopener noreferrer" aria-label="Agendar pelo WhatsApp">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884"></path></svg>
+  <a class="wa-float" href="https://wa.me/5567999073499?text=Ol%C3%A1%2C+gostaria+de+falar+com+a+equipe+do+Dr.+Cezar+Galhardo" target="_blank" rel="noopener noreferrer" aria-label="Falar com a equipe no WhatsApp">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 1 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884"></path></svg>
     <span>WhatsApp</span>
   </a>
 
